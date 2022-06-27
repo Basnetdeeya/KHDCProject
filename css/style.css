@@ -1,0 +1,1172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #eaf3fa;
+  --secondary-color: #cf1401;
+  --lightblue-color: #75bcfe;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --Bblue-color: #f4f9fd;
+  --extra-color: #6d7277;
+  --background-color: #f7f7f7;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  padding: 0;
+  background-color: var(--secondary-color);
+}
+
+.clock-icon {
+  color: var(--white-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.f-icon,
+.t-icon,
+.l-icon,
+.y-icon {
+  color: var(--white-color) !important;
+  padding: 15px;
+}
+
+.collapse {
+  padding: 40;
+}
+
+.time {
+  color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.naav {
+  padding: 10px;
+  background-color: #bfdcf6 !important;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-item {
+  margin-bottom: 0 !important;
+}
+
+.nav-link {
+  font-family: "Questrial", sans-serif;
+  color: var(--black-color) !important;
+  font-size: 18px;
+  padding-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 0 !important;
+}
+
+.nav-item,
+.active {
+  color: var(--secondary-color) !important;
+}
+
+/* -------------------Carousel-------------- */
+.hero {
+  width: 100%;
+  height: 650px;
+}
+
+.section-first {
+  width: 100% !important;
+  height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../images/Bg.png");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+hr.line {
+  border: 1px solid var(--black-color) !important;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.con-first {
+  color: var(--black-color);
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.font-48 {
+  color: var(--black-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 120px !important;
+  color: var(--white-color);
+}
+
+.trans-btn {
+  background: var(--secondary-color) !important;
+  font-family: "Questrial", sans-serif !important;
+  color: var(--white-color) !important;
+  border-radius: 40px !important;
+  padding: 10px 30px !important;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.rightlink {
+  color: var(--secondary-color) !important;
+}
+
+/*--------------------- About us-------------------------------------------- */
+.section-second {
+  width: 100%;
+  background-image: url("../images/11.png");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.topic {
+  font-family: "Questrial", sans-serif;
+  padding-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px !important;
+  text-align: center !important;
+  color: var(--secondary-color);
+}
+
+.left-image {
+  padding-top: 40px !important;
+  padding-bottom: 0px;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+span {
+  color: var(--black-color);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.title {
+  color: var(--black-color);
+  font-family: "Questrial", sans-serif;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 33px;
+}
+
+.para {
+  font-family: "Questrial", sans-serif;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--extra-color);
+}
+
+.aboutus-btn {
+  margin-left: 190px !important;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background: var(--background-color) !important;
+  border-color: var(--background-color) !important;
+  border-radius: 40px !important;
+  font: 14px !important;
+  padding: 7px 30px !important;
+  color: var(--black-color) !important;
+  font-family: "Questrial", sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  text-align: center !important;
+}
+
+/* ---------------------------Why KHDC------------------------------ */
+.section-third {
+  padding-bottom: 60px;
+  background-color: #fcf7ef;
+}
+
+.title-below {
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-size: 16px;
+  color: #868b8e;
+  margin-bottom: 50px;
+}
+
+.Khdc-desc {
+  color: #545758;
+  line-height: 25px;
+  text-align: center;
+}
+
+/* ------------------------Our Mission---------------------------- */
+.section-forth {
+  background-color: var(--background-color) !important;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.top-con {
+  margin-top: 70px;
+}
+
+.vision {
+  background-color: #de4242;
+}
+
+.mission {
+  background: #a92b2b;
+}
+
+.goals {
+  background: #d02513;
+}
+
+.icon {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 2.65rem !important;
+  padding: 30px 30px;
+}
+
+.bottom-con {
+  background-color: var(--white-color);
+  margin-top: 100px;
+}
+
+.content-description {
+  text-align: center;
+  padding: 30px 40px;
+}
+
+h5 {
+  font-size: 40px !important;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Questrial", sans-serif !important;
+}
+
+.desc {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Questrial", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  padding: 0;
+}
+
+#borderright {
+  border-right: 1px solid var(--extra-color);
+}
+
+/* --------------Executive Team------------------------ */
+.section-fifth {
+  background-color: #fff9ed;
+  padding-bottom: 90px;
+  width: 100%;
+}
+
+.custom-grid {
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.bold-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 25px !important;
+  color: var(--black-color);
+  margin: 0;
+}
+
+.white-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  color: var(--white-color);
+  margin-bottom: 40px;
+  display: block;
+}
+
+.executive-team {
+  position: relative;
+  margin-top: 30px;
+}
+
+.executive-team-content {
+  position: absolute;
+  right: 66px;
+  bottom: -35px;
+  width: 70%;
+  padding: 10px;
+  overflow: hidden;
+  background: var(--secondary-color);
+}
+
+.executive-team-text-sub {
+  margin-bottom: -50px;
+}
+
+/* -------------------Our Team------------------- */
+.section-seventh{
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.message {
+  margin-top: 50px;
+}
+
+.team-member {
+  border: 9px solid transparent;
+  padding: 20px 20px !important;
+  background: #dfeffe !important;
+}
+
+.sector {
+  color: var(--extra-color);
+  font-family: "Questrial", sans-serif;
+  margin-bottom: 20px;
+}
+
+.doctor {
+  height: 200px;
+  width: 200px;
+  clip-path: circle();
+  background: darkgray;
+}
+
+.name-head {
+  font-family: "Questrial", sans-serif;
+  color: var(--black-color);
+  font-size: 22px !important;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.fb,
+.twitt,
+.yt,
+.insta,
+.linke {
+  clip-path: circle();
+  height: 50px !important;
+  background-color: #f8ecd6;
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding: 17px;
+  margin: 0px;
+}
+
+/* --------------------Message From------------------ */
+.section-sixth {
+  padding-bottom: 60px;
+  width: 100%;
+  background: #fff9ed;
+}
+
+.founder {
+  margin-top: 20px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  height: 150px;
+  width: 180px;
+}
+
+.founder-details {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: bold !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.fon {
+  color: #32373f !important;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.message-desc {
+  color: #302f2f;
+  font-weight: medium;
+  font-size: 14px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------Footer------------------------ */
+.section-eighth {
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: var(--lightblue-color);
+}
+
+.footer-top {
+  border-bottom: 2px solid var(--secondary-color);
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.logoo {
+  border-radius: 50% !important;
+  height: 130px;
+  width: 130px;
+}
+
+.com-name {
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.footer-social {
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.fb,
+.twitt,
+.yt,
+.linke {
+  color: var(--secondary-color);
+}
+
+.title-name {
+  color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px !important;
+  padding: 0;
+
+  text-align: start;
+}
+
+li,
+.footer-link {
+  margin-bottom: 10px;
+  color: var(--white-color) !important;
+  font-family: "Questrial", sans-serif !important;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.list-item {
+  padding-top: 20px;
+  padding-left: 10%;
+}
+
+.icon-text {
+  color: var(--white-color) !important;
+  font-family: "Questrial", sans-serif !important;
+}
+
+.footer-icon {
+  margin-right: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: var(--white-color);
+}
+
+.footer-bottom {
+  color: var(--white-color);
+  font-family: "Questrial", sans-serif !important;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* -----About Us read more----------------------- */
+.about-page{
+  width: 100%;
+}
+
+.description-section{
+padding-bottom: 30px;
+}
+.about-para{
+   font-family: "Questrial",
+   sans-serif !important;
+  color: #403F3F;
+}
+
+
+/* ---------------Service page------------------ */
+.service-page {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.service {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../images/services.png);
+  height: 500px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.service-head,
+.service-desc {
+  color: var(--white-color) !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.service-head {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+/* ---------------Our Service Section  w-620 h-293---------- */
+.our-service-section {
+  width: 100%;
+}
+
+.Service-section2 {
+  padding-bottom: 60px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-desc {
+  margin: 20px 0px;
+}
+
+.section-head {
+  color: var(--secondary-color);
+  font-size: 36px;
+  padding-bottom: 10px;
+  font-family: "Questrial", sans-serif;
+}
+
+.section-para {
+  font-family: "Questrial", sans-serif;
+  color: #403f3f;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.service-btn {
+  background: #ef301d !important;
+  border-color: var(--background-color) !important;
+  border-radius: 40px !important;
+  font: 14px !important;
+  padding: 7px 30px !important;
+  color: var(--white-color) !important;
+  font-family: "Questrial", sans-serif !important;
+}
+
+/* ---------------End of Our Service Section-------------- */
+
+/* ----------------------Service read more------------------ */
+.service-readmore{
+  width: 100%;
+  padding-bottom: 30px;
+}
+.service-para{
+  font-family: "Questrial",
+  sans-serif !important;
+  color: #828282;
+}
+.text-red{
+  color: var(--secondary-color);
+}
+
+.lookfor{
+  font-family: "Questrial",
+  sans-serif !important;
+  color: #3C3C3C;
+}
+
+/*------------Collaborations & Projects-------------------------- */
+.collaboration-page {
+  width: 100%;
+}
+
+.collaboration {
+  background-image: url(../images/collaboration.png);
+  height: 500px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.collaboration-head,
+.collaboration-desc {
+  color: var(--black-color) !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.collaboration-head {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 30px !important;
+}
+
+/* --------------2nd part Collabration Section------- */
+.section-projects {
+  background-color: #75bcfe;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.coll {
+  margin-top: 40px;
+}
+
+.project-topic,
+.project-desc {
+  font-family: "Poppins", sans-serif;
+}
+
+.project-topic {
+  font-size: 20px !important;
+  font-weight: bold;
+  padding: 16px 0 10px;
+}
+
+.project-desc {
+  font-size: 12px !important;
+  padding: 0 10px 18px;
+  margin: 0;
+}
+
+/* ----------Collaborators section-------- */
+.section-collaborators {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.collaborators-logo {
+  padding-top: 30px;
+}
+
+/* ---------------------------Educational Material Carousel--------------------------- */
+.edu-page {
+  width: 100%;
+}
+
+.educational {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(../images/educarousel.png);
+  height: 300px;
+  width: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.edu-head,
+.edu-desc {
+  color: var(--white-color) !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.edu-head {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 30px !important;
+}
+
+.edu-desc {
+  margin: 0 200px;
+  padding: 0;
+}
+
+/* ------------------------Mid Section------------------------- */
+.materials-page {
+  background-color: var(--background-color);
+  padding-bottom: 58px;
+  width: 100%;
+}
+
+.right-description {
+  font-family: "Questrial", sans-serif !important;
+}
+
+.type {
+  color: var(--secondary-color);
+}
+
+.material-topic {
+  font-size: 32px;
+}
+
+.material-desc {
+  color: #403f3f;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.download-btn {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border-radius: 40px;
+  font-size: 14px;
+}
+/* ------------------------------------------------------------------------------ */
+
+/*--------------  Notice-----------------------*/
+.noticee {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../images/notice.png);
+  height: 300px;
+  width: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.notice-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.notice-desc {
+  color: #f7f7f7;
+  padding-left: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------------notice-------------- */
+.notice_section {
+  background-color: var(--background-color);
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.random_notice {
+  font-family: "Questrial", sans-serif;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.notice-paragraph {
+  font-family: "Questrial", sans-serif;
+  color: #403f3f;
+}
+
+.date {
+  font-family: "Questrial", sans-serif;
+  color: black;
+}
+
+/*---------------Telemedicine ---------------------- */
+.tele {
+  background-image: linear-gradient(
+      rgba(175, 172, 172, 0.2),
+      rgba(163, 156, 156, 0.8)
+    ),
+    url(../images/telemed.png);
+  height: 300px;
+  width: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.telemedicine {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+/* ----------------section 2 telemedicine------------- */
+.section-telemedicine {
+  background: #f7f7f7;
+  margin: auto;
+}
+
+.Khdc-desc {
+  font-size: 16px;
+  font-family: "Questrial", sans-serif;
+  color: #828282;
+  margin: 0;
+}
+
+.topic-tele {
+  font-family: "Questrial", sans-serif;
+  padding-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px !important;
+  text-align: center !important;
+  color: var(--black-color);
+}
+
+.telebutton {
+  background: var(--secondary-color) !important;
+  font-family: "Questrial", sans-serif !important;
+  color: var(--white-color) !important;
+  border-color: var(--secondary-color);
+  border-radius: 40px !important;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+/*-------------End of Telemedicine-------------------*/
+
+
+/* ---------------------------Donate Us------------------------------ */
+.donateus-section {
+  background-color: var(--background-color);
+  width: 100%;
+  padding-bottom: 60px;
+}
+ .mid-box{
+   background-color: var(--white-color);
+   border: 1px solid #d4d4d4;
+   box-shadow: 5px 5px #e7e7e7;
+ }
+
+ .left-box{
+   
+    box-shadow: 2px 0px #e7e7e7;
+ }
+.support{
+  font-family: "Poppins", sans-serif;
+  color:var(--secondary-color);
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.donate, form, .payment-details{
+   font-family: "Questrial", sans-serif;
+   color: black;
+}
+.thank{
+  color: #797878;
+}
+
+.form-control {
+  border: 1px solid #000000;
+}
+
+.donate-logo {
+  padding: 10px;
+}
+
+.proceed {
+  font-family: "Questrial", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border-radius: 40px;
+  padding: 1px 20px;
+}
+
+.right-para {
+  text-align: center;
+}
+.donate-para{
+  font-family: "Questrial", sans-serif;
+  color: #8C8686;
+
+}
+/* ---------------------End of Donate Us------------------ */
+
+
+/* ----------Media------------------------- */
+@media (max-width: 700px) {
+  .font-45 {
+    font-size: 24px;
+  }
+
+  .font-48 {
+    font-size: 38px;
+  }
+
+  .topic {
+    font-size: 30px !important;
+  }
+
+  .left-image {
+    display: none;
+  }
+
+  .section-second {
+    background-image: none;
+  }
+
+  .aboutus-btn {
+    margin-bottom: 30px;
+    margin-left: 190px !important;
+    background-color: var(--secondary-color) !important;
+  }
+
+  .service-head,
+  .collaboration-head,
+  .edu-head {
+    font-size: 25px;
+  }
+
+  .service-desc,
+  .collaboration-desc,
+  .edu-desc {
+    font-size: 7px;
+  }
+
+  .bold-name {
+    font-size: 15px !important;
+  }
+
+  .white-name {
+    font-size: 10px !important;
+  }
+
+  .middlesection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .telemedicine {
+    font-size: 30px;
+  }
+
+  .notice-head {
+    text-align: center !important;
+  } 
+
+  .notice_section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .support{
+    font-size: 30px;
+  }
+  .box{
+    margin: 20px 10px;
+  }
+  .left-box{
+    box-shadow: 0px 2px #e7e7e7;
+  }
+
+  .description-section{
+    padding: 5px 10px;
+  }
+  .executive-team-content {
+    position: absolute;
+    right: 66px;
+    bottom: -35px;
+    width: 70%;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--secondary-color);
+  }
+}
+
+@media (max-width: 780px) {
+  .custom-grid {
+    margin-left: 80px ;
+  }
+
+  .left-image {
+    display: none;
+  }
+
+  .section-second {
+    background-image: none;
+  }
+
+  .aboutus-btn {
+    background-color: var(--secondary-color) !important;
+    margin-left: 190px;
+  }
+}
+
+@media (max-width: 566px) {
+  .custom-grid {
+    margin-left: 90px;
+  }
+
+  .aboutus-btn {
+    margin-left: 190px !important;
+  }
+
+  .edu-head {
+    font-size: 20px;
+  }
+
+  .edu-desc {
+    margin: 0;
+
+  }
+
+  .list-item{
+    margin-left:0 !important;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 508px) {
+  .custom-grid {
+    margin-left: 60px;
+  }
+  .list-item {
+    margin-left: 0 !important;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .list-item{
+    margin-left: 130px !important;
+
+  }
+}
+@media (max-width: 414px) {
+  .list-item {
+    margin-left: 0 !important;
+padding-left: 100px;
+  }
+}
+
+@media (max-width: 402px) {
+  .custom-grid {
+    margin-left: 0px;
+  }
+
+  .aboutus-btn {
+    margin-left: 100px !important;
+  }
+
+   .topic-tele {
+     font-size: 18px;
+     text-align: center !important;
+   }
+
+   .list-item {
+     margin-left: 0 !important;
+     
+   }
+}
+
+@media (max-width: 285px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .aboutus-btn {
+    margin-left: 50px !important;
+  }
+
+  .text {
+    font-size: 10px;
+    margin-bottom: 50px !important;
+  }
+
+  .font-48 {
+    font-size: 20px;
+  }
+
+  .trans-btn {
+    font-size: 9px;
+    padding: 10px !important;
+  }
+  .list-item {
+    padding-left: 30px !important;
+
+  }
+}
+@media (max-width: 360px) {
+  .list-item {
+    margin-left: 0 !important;
+    padding-left: 70px;
+  }
+}
+
+@media (max-width: 200px) {
+  .aboutus-btn {
+    font-size: 5px;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .collab {
+    margin-left: 70px !important;
+}
+.footer-list{
+  text-align: center;
+}  
+.list-item{
+  margin-left: 25%;
+}
+
+}
+
+@media (max-width: 1390px) {
+  .executive-team-content {
+    position: absolute;
+    right: 6px;
+    bottom: -35px;
+    width: 70%;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--secondary-color);
+  }
+}
+
+@media (max-width: 1179px) {
+  .executive-team-content {
+    position: absolute;
+    right: 0px;
+    bottom: -35px;
+    width: 70%;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--secondary-color);
+  }
+}
+
+
